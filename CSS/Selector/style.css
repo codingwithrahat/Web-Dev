@@ -1,0 +1,53 @@
+/* class selector */
+.red{
+    background-color: red;
+}
+
+
+/* id selector */
+#green{
+    background-color: green;
+}
+
+/* child sleector */
+/* if p is a direct child */
+div > p{
+    background-color: yellow;
+}
+
+/* descendant selector */
+div p{
+    background-color: brown;
+}
+
+
+/* universal selector */
+/* every element margin and padding should be zero */
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* pseudo slector */
+
+a:visited{
+    color: burlywood;
+}
+
+a:link{
+    color: green;
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: aquamarine;
+}
+
+p:first-child{
+    background-color: black;
+    color: aliceblue;
+}
